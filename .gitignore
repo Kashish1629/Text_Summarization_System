@@ -1,0 +1,56 @@
+# =====================
+# Python
+# =====================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# NLTK data
+nltk_data/
+
+# Hugging Face Transformers cache
+~/.cache/huggingface/
+cache/
+transformers_cache/
+
+# PyTorch / TensorFlow cache
+*.pt
+*.pth
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# =====================
+# Dataset / Large files
+# =====================
+# Uncomment the following line if you do NOT want to track dataset files
+# data/
+
+# Optional: ignore all temporary files or editor backups
+*~
+*.swp
+*.swo
