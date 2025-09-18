@@ -17,8 +17,6 @@ The app also optionally evaluates generated summaries against a reference using 
   - Generates a human-like summary using Hugging Face Transformers.
   - Supported models: BART (`facebook/bart-large-cnn`) and T5 (`t5-small`).
 
-- **Evaluation**
-  - Optional reference summary evaluation using ROUGE-1, ROUGE-2, and ROUGE-L scores.
 
 - **Interactive Frontend**
   - Built with Streamlit.
